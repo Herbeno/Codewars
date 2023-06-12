@@ -1,6 +1,6 @@
 def solution(number):
-    soma = 0 
+    solution = 0 
     for c in range(number):
-        soma += 1 
-    return soma
+        solution += 1 
+    return solution
 
