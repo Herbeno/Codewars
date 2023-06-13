@@ -7,6 +7,8 @@ def multiple(x):
     # next, we will use "elif" to code other condition that return "Boom" if x is divisible by 5 'and' in't divisible by 3.
     elif x % 5 == 0 and x % 3 != 0:
         return "Boom"
+    elif x % 3 == 0 and x % 5 == 0:
+        return "BangBoom"
     # The last comand is 'else', that means that any other possibility of division return 'Miss'
     else:
         return "Miss"
