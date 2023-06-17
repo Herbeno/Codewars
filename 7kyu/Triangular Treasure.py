@@ -2,9 +2,5 @@
 # You need to return the nth triangular number. You should return 0 for out of range values:
 
 def triangular(n):
-    x = s = 0
-    for x in range(0, n + 1):
-        s += x
-    return s
-# or you can do this way
-#   return sum(range(n + 1))
+    return n * (n + 1) // 2 if n > 0 else 0
+# if you do it with a integer division(//) your code cell will be better, because quotient is rounded to he next smallest whole number, the result always has type int.
